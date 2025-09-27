@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 10;
+    font-family: 'Henny Penny', Arial, Helvetica, sans-serif;
+    color: #222;
+    background-color: white;
+    line-height: 1.6;
+}
