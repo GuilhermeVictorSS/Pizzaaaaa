@@ -10,6 +10,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Henny+Penny&family=Mea+Culpa&family=Monsieur+La+Doulaise&display=swap" rel="stylesheet">
 </head>
 <body>
+    <audio autoplay="autoplay" controls="controls">
+    <source src="" type="audio/mp3" />
+    seu navegador não suporta HTML5
+    </audio>
     <header class="topbar">
         <div class="container row">
             <a class="logo" href="#">La Pizza</a>
@@ -33,69 +37,69 @@
                 </figure>
             </div>
         </section>
-        <section id="cardapio">
-            <div>
+        <section class="alt" id="cardapio">
+            <div class="container">
                 <h2>Cardápio</h2>
-                <p>As opções mais famosas do menu</p>
-                <div>
+                <p class="section-subtitle">As opções mais famosas do menu</p>
+                <div class="menu-grid">
                     <!-- Item1 -->
-                     <article>
-                        <figure>
+                     <article class="item">
+                        <figure class="thumb">
                             <img src="img/quadrada2.jpg" width="350" height="300" alt="pizza de mozzarella"/>
                         </figure>
                         <h3>Pizza de mozzarela quadrada</h3>
                         <p>Molho de tomate, queijo e massa de pizza</p>
-                        <span> 20 Robux</span>
+                        <span class="price"> 20 Robux</span>
                      </article>
                     <!-- Item2 -->
-                    <article>
-                        <figure>
+                    <article class="item">
+                        <figure class="thumb">
                             <img src="img/salsicha.jpg" width="350" height="300" alt="pizza de salsicha"/>
                         </figure>
                         <h3>Pizza de salsicha redonda</h3>
                         <p>Molho de tomate, salsicha e massa de pizza</p>
-                        <span> 30 Robux</span>
+                        <span class="price"> 30 Robux</span>
                     </article>
                     <!-- Item3 -->
-                    <article>
-                        <figure>
+                    <article class="item">
+                        <figure class="thumb">
                             <img src="img/quadrada.jpg" width="350" height="300" alt="pizza de peperoni"/>
                         </figure>
                         <h3>Pizza de peperoni quadrada</h3>
                         <p>Molho de tomate, peperoni e massa de pizza</p>
-                        <span> 25 Robux</span>
+                        <span class="price"> 25 Robux</span>
                     </article>
                     <!-- Item4 -->
-                    <article>
-                        <figure>
+                    <article class="item">
+                        <figure class="thumb">
                             <img src="img/rosquinhareal.jpg" width="350" height="300" alt="Pizza de mozzarella em formato rosquinha"/>
                         </figure>
                         <h3>Pizza de mozzarela rosquinha</h3>
                         <p>Molho de tomate, queijo e massa de pizza, porém em formato de rosquinha</p>
-                        <span> 100 Robux</span>
+                        <span class="price"> 100 Robux</span>
                     </article>
                     <!-- Item5 -->
-                    <article>
-                        <figure>
+                    <article class="item">
+                        <figure class="thumb">
                             <img src="img/abacaxi.jpg"width="350" height="300" alt="pizza de abacaxi"/>
                         </figure>
                         <h3>Pizza de abacaxi</h3>
                         <p>Molho de tomate, abacaxi e massa de pizza</p>
-                        <span> 1 Robux</span>
+                        <span class="price"> 1 Robux</span>
                     </article>
                     <!-- Item6 -->
-                    <article>
-                        <figure>
+                    <article class="item">
+                        <figure class="thumb">
                             <img src="img/brocolis.jpg" width="350" height="300" alt="pizza de brócolis"/>
                         </figure>
                         <h3>Pizza de brócolis</h3>
                         <p>Molho de tomate, brócolis e massa de pizza</p>
-                        <span> 20 Robux</span>
+                        <span class="price"> 20 Robux</span>
                     </article>
                 </div>
             </div>
         </section>
-        <section id="contato">
+        <section class="container contact-grid" id="contato">
             <div>
                 <h3>Fale conosco!</h3>
                 <form>
@@ -111,7 +115,7 @@
                         mensagem
                         <textarea name="mensagem" placeholder="Escreva sua mensagem. . ." rows="5"></textarea>
                     </label>
-                    <input type="submit" name="enviar"/>
+                    <input class="btn" type="submit" name="enviar"/>
                 </form>
             </div>
             <div>
@@ -121,7 +125,7 @@
                     <strong>abertos de segunda a sábado</strong> das 11:00 às 23:00
                 </p>
                 <figure>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.522827877929!2d-122.300109470777!3d37.54274413323104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f9f001337d9f9%3A0x24902862e2fff05c!2sRoblox%20Corporation!5e0!3m2!1spt-BR!2sbr!4v1758976936792!5m2!1spt-BR!2sbr" width="40%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.522827877929!2d-122.300109470777!3d37.54274413323104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f9f001337d9f9%3A0x24902862e2fff05c!2sRoblox%20Corporation!5e0!3m2!1spt-BR!2sbr!4v1758976936792!5m2!1spt-BR!2sbr" width="500" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </figure>
             </div>
         </section>
